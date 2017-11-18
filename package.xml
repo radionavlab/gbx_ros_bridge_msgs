@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package>
+  <name>gbx_ros_bridge_msgs</name>
+  <version>0.0.1</version>
+  <description>ROS Message definitions for GBX-ROS-Bridge</description>
+
+  <maintainer email="thaydon@utexas.edu">Tucker Haydon</maintainer>
+  <license>GRID</license>
+
+  <author email="thaydon@utexas.edu">Tucker Haydon</author>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>message_generation</build_depend>
+
+
+  <run_depend>std_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>message_runtime</run_depend>
+
+  <export>
+
+  </export>
+</package>

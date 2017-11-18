@@ -11,4 +11,5 @@ This package contains no source code. All it does is build the message definitio
 3) For every package that requires these messages, edit the CMakeLists.txt and add:
     1.  gbx_ros_bridge_msgs to find_package
     2.  gbx_ros_bridge_msgs to CATKIN_DEPENDS in catkin_package
-    3.  add_dependencies(TARGET gbx_ros_bridge_msgs)
+    3.  add_dependencies(TARGET gbx_ros_bridge_msgs_gencpp)
+    4.  add_dependencies(TARGET gbx_ros_bridge_msgs)
